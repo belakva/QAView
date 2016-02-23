@@ -14,7 +14,7 @@
             buildForArchiving = "YES">
             <BuildableReference
                BuildableIdentifier = 'primary'
-               BlueprintIdentifier = 'A63AFB8ABC2631484F98C107'
+               BlueprintIdentifier = '78F5CF4173C8F3B074E43618'
                BlueprintName = 'QAView'
                ReferencedContainer = 'container:Pods.xcodeproj'
                BuildableName = 'QAView.framework'>

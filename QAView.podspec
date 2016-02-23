@@ -16,7 +16,7 @@ Pod::Spec.new do |s|
 #   * Try to keep it short, snappy and to the point.
 #   * Write the description between the DESC delimiters below.
 #   * Finally, don't worry about the indent, CocoaPods strips it!  
-  s.description      = "QAView represents 2 UIScrollViews: questionsScroller & answersScroller populated with 2 arrays: questions & answers respectively. When question is tapped, it becomes active and ready to be connected to answers. Use this pod whenever you have to visualize dependencies in between elements of 2 arrays."
+  s.description      = "QAView represents 2 UIScrollViews: _questionsScroller & _answersScroller populated with 2 arrays: _questions & _answers respectively. When a question is tapped, it becomes active and ready to be connected to answers. Use this pod whenever you have to visualize dependencies in between elements of 2 arrays."
 
   s.homepage         = "https://github.com/belakva/QAView"
   s.screenshots      = "http://i.imgur.com/qE6fPfI.png"

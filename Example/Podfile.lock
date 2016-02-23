@@ -9,6 +9,6 @@ EXTERNAL SOURCES:
     :path: ../
 
 SPEC CHECKSUMS:
-  QAView: 50f2fd7070f85d4c9913343a5821b38aa7ebffab
+  QAView: 4d946457a9abd8cf73c637ad6fefccb11d315e11
 
 COCOAPODS: 0.39.0

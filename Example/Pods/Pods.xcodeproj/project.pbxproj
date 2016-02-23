@@ -7,17 +7,28 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		18C2BD7DEBA81ECA326ED7452CE9BB8C /* QAView-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 9D635EECD2EC5A815A8B6E26ED151962 /* QAView-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		449B6B6249AECE747DB9D556259B5EDA /* QAView-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 97D82BF0943E1711B81057386716D8FC /* QAView-dummy.m */; };
+		0952604E9ADB957643B058D86B0342E3 /* QAConnectingLine.m in Sources */ = {isa = PBXBuildFile; fileRef = 9F15B641506816515A303B54DE2089ED /* QAConnectingLine.m */; };
+		3B622940AB4C19193EA424D2A8CF78A3 /* QAViewDelegate.h in Headers */ = {isa = PBXBuildFile; fileRef = A9350AF4B00B0E37D29CC0AFEB9EEC01 /* QAViewDelegate.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		41DD3E420ECD6426CE5614D2A0E94AE1 /* QAView-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 9D635EECD2EC5A815A8B6E26ED151962 /* QAView-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		51E73AB17B56D1253F45065F2A6F69A0 /* QAScrollView.m in Sources */ = {isa = PBXBuildFile; fileRef = 79B57D634B264138D9456B52587203AD /* QAScrollView.m */; };
+		67B38378BA20E83F919FB64BF7337179 /* QAItemView.h in Headers */ = {isa = PBXBuildFile; fileRef = F306813DCB5D3898809CC2413FA82B3C /* QAItemView.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		6C652039270185A2BE0CE8A9A4AB3A4D /* QAConnectingLine.h in Headers */ = {isa = PBXBuildFile; fileRef = 55397937D337261ADEEEB161CA199E5C /* QAConnectingLine.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		7167661F1940EAFBC997DBCE37356DBB /* Pods-QAView_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 27C222ECC88AB7813ADF6D05E992BA8A /* Pods-QAView_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		72F58577E8AF96144C7B1A3F19929030 /* UIScrollViewItemDelegate.h in Headers */ = {isa = PBXBuildFile; fileRef = A924B756DCFB54D70FDF3A1A2F74C4D9 /* UIScrollViewItemDelegate.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		7B2E2849A9E23FD5478044C215745F22 /* Pods-QAView_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 7444575A68B45F720A3CA845A618A27B /* Pods-QAView_Example-dummy.m */; };
 		8F9A557A19DD9F01D367D5197D6023DE /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3E4E89230EF59BC255123B67864ACF77 /* Foundation.framework */; };
+		913C5BF86CB8DEB183467B330B3E88A4 /* QAScrollView.h in Headers */ = {isa = PBXBuildFile; fileRef = 711D9550417FF2335D08BA2B945C421F /* QAScrollView.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		9F47272581F94AA4C2C6E8D89EF25076 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3E4E89230EF59BC255123B67864ACF77 /* Foundation.framework */; };
 		BD9BA0CD50608553CE3074465172A5BC /* QAView.bundle in Resources */ = {isa = PBXBuildFile; fileRef = A2E43E66BAF56C4D04AF9007EEB7FAE4 /* QAView.bundle */; };
+		BFB0FFA955024DFC445F909853819991 /* QAView.h in Headers */ = {isa = PBXBuildFile; fileRef = C604ECAFF79467EFAF3E3B337692EEEC /* QAView.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		C4D5B4DAA504EC5B6691C52D8DF2A137 /* UIScrollViewItem.h in Headers */ = {isa = PBXBuildFile; fileRef = 6A053A5C314EFEB287289916D5CF9B15 /* UIScrollViewItem.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		D5AAC3EE86C8952BA9907144ABF4B4B5 /* QAView-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 97D82BF0943E1711B81057386716D8FC /* QAView-dummy.m */; };
 		DD2B5B74ECE762AB5C1258847BC3E680 /* Pods-QAView_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 7A10156A788A3667597DA9B30AF602DA /* Pods-QAView_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		DDDE287EEAD8C3181D661761C9A7A892 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3E4E89230EF59BC255123B67864ACF77 /* Foundation.framework */; };
-		EAF197DCF1592AA7642E84559E7DAE4A /* ReplaceMe.m in Sources */ = {isa = PBXBuildFile; fileRef = DC9FD843FE3A4E655DB2DA3F163150A2 /* ReplaceMe.m */; };
+		E4032C3F5A4D9B1813771620353F790F /* UIScrollViewItem.m in Sources */ = {isa = PBXBuildFile; fileRef = F895AA36638784A0117E6F35542EE091 /* UIScrollViewItem.m */; };
 		F30ECAEB779853DB0721C72DAB9FE4DA /* Pods-QAView_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 7E66685FC63342006B1BB5AC210DAA19 /* Pods-QAView_Tests-dummy.m */; };
+		F33EF769AE4775881B89FE775D6097A0 /* QAView.m in Sources */ = {isa = PBXBuildFile; fileRef = B5BB51B5ED5242552B45271E12895904 /* QAView.m */; };
+		F5462082A939EA2D65C18C3F276B375A /* QAItemView.m in Sources */ = {isa = PBXBuildFile; fileRef = 6B77BEC87C85AD605509B6312E3E05F8 /* QAItemView.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -53,11 +64,16 @@
 		317F9542BE8F5262E047C4B736089FFD /* Pods-QAView_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-QAView_Example-frameworks.sh"; sourceTree = "<group>"; };
 		333D584E529B9C90A114D208744A977F /* QAView.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = QAView.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		3E4E89230EF59BC255123B67864ACF77 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS9.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		55397937D337261ADEEEB161CA199E5C /* QAConnectingLine.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = QAConnectingLine.h; sourceTree = "<group>"; };
 		5922E7FBA45528B360CD63CA126BDBF3 /* Pods-QAView_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-QAView_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
 		61FEAA06997B68A3879864C7A5755585 /* Pods-QAView_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-QAView_Tests.debug.xcconfig"; sourceTree = "<group>"; };
 		63FFC116CED812A247FE2849C2AC106C /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		6A053A5C314EFEB287289916D5CF9B15 /* UIScrollViewItem.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = UIScrollViewItem.h; sourceTree = "<group>"; };
+		6B77BEC87C85AD605509B6312E3E05F8 /* QAItemView.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = QAItemView.m; sourceTree = "<group>"; };
+		711D9550417FF2335D08BA2B945C421F /* QAScrollView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = QAScrollView.h; sourceTree = "<group>"; };
 		7444575A68B45F720A3CA845A618A27B /* Pods-QAView_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-QAView_Example-dummy.m"; sourceTree = "<group>"; };
 		75F20545DB77CEA1B7B0FCD8F764BD28 /* Pods-QAView_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-QAView_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
+		79B57D634B264138D9456B52587203AD /* QAScrollView.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = QAScrollView.m; sourceTree = "<group>"; };
 		7A10156A788A3667597DA9B30AF602DA /* Pods-QAView_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-QAView_Example-umbrella.h"; sourceTree = "<group>"; };
 		7AC77000A0B8298E15BD696E80BC6B90 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		7E6666A8C805EB040FD456476D14028D /* Pods_QAView_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_QAView_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -66,17 +82,23 @@
 		97D82BF0943E1711B81057386716D8FC /* QAView-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "QAView-dummy.m"; sourceTree = "<group>"; };
 		9833AE90A375115550A572FAAB72CFEC /* QAView.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = QAView.modulemap; sourceTree = "<group>"; };
 		9D635EECD2EC5A815A8B6E26ED151962 /* QAView-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "QAView-umbrella.h"; sourceTree = "<group>"; };
+		9F15B641506816515A303B54DE2089ED /* QAConnectingLine.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = QAConnectingLine.m; sourceTree = "<group>"; };
 		A11B20195C5A1DB13907D3ABC5DFC288 /* Pods-QAView_Example-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-QAView_Example-resources.sh"; sourceTree = "<group>"; };
 		A2E43E66BAF56C4D04AF9007EEB7FAE4 /* QAView.bundle */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = QAView.bundle; sourceTree = BUILT_PRODUCTS_DIR; };
+		A924B756DCFB54D70FDF3A1A2F74C4D9 /* UIScrollViewItemDelegate.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = UIScrollViewItemDelegate.h; sourceTree = "<group>"; };
+		A9350AF4B00B0E37D29CC0AFEB9EEC01 /* QAViewDelegate.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = QAViewDelegate.h; sourceTree = "<group>"; };
+		B5BB51B5ED5242552B45271E12895904 /* QAView.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = QAView.m; sourceTree = "<group>"; };
 		BA6428E9F66FD5A23C0A2E06ED26CD2F /* Podfile */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		BAC86E631A19D9F108229B07304C80CE /* QAView.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = QAView.xcconfig; sourceTree = "<group>"; };
 		BCDE5B0390904E1932BBF6564B658FB7 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		BE6D32991EA59A453D470CC1112A70A4 /* Pods-QAView_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = "Pods-QAView_Tests.modulemap"; sourceTree = "<group>"; };
 		C26EC6278C0083F3D18E0324C2086DCB /* Pods-QAView_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-QAView_Example.release.xcconfig"; sourceTree = "<group>"; };
+		C604ECAFF79467EFAF3E3B337692EEEC /* QAView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = QAView.h; sourceTree = "<group>"; };
 		C91DE4BDC1593F2717636698615CC135 /* Pods-QAView_Tests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-QAView_Tests-frameworks.sh"; sourceTree = "<group>"; };
 		D3A7026E064ECD119F5927DB26C5DD17 /* QAView-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "QAView-prefix.pch"; sourceTree = "<group>"; };
-		DC9FD843FE3A4E655DB2DA3F163150A2 /* ReplaceMe.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = ReplaceMe.m; sourceTree = "<group>"; };
 		EF1B97AC4FEB7878DDE121213EB08CCE /* Pods-QAView_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-QAView_Example-acknowledgements.plist"; sourceTree = "<group>"; };
+		F306813DCB5D3898809CC2413FA82B3C /* QAItemView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = QAItemView.h; sourceTree = "<group>"; };
+		F895AA36638784A0117E6F35542EE091 /* UIScrollViewItem.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = UIScrollViewItem.m; sourceTree = "<group>"; };
 		FA8B72D5E8715E46740DB9E33567901B /* Pods-QAView_Tests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-QAView_Tests-resources.sh"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -115,6 +137,16 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		05ED34B0F406A5E8A87998ED6EAC01B3 /* UIScrollViewItem */ = {
+			isa = PBXGroup;
+			children = (
+				6A053A5C314EFEB287289916D5CF9B15 /* UIScrollViewItem.h */,
+				F895AA36638784A0117E6F35542EE091 /* UIScrollViewItem.m */,
+				A924B756DCFB54D70FDF3A1A2F74C4D9 /* UIScrollViewItemDelegate.h */,
+			);
+			path = UIScrollViewItem;
+			sourceTree = "<group>";
+		};
 		1FA51996BB6B6A5973742297A7068E89 /* Targets Support Files */ = {
 			isa = PBXGroup;
 			children = (
@@ -181,6 +213,22 @@
 			path = "Target Support Files/Pods-QAView_Example";
 			sourceTree = "<group>";
 		};
+		6C080BE652076EB43FA74C0F5FEFF16F /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				C604ECAFF79467EFAF3E3B337692EEEC /* QAView.h */,
+				B5BB51B5ED5242552B45271E12895904 /* QAView.m */,
+				55397937D337261ADEEEB161CA199E5C /* QAConnectingLine.h */,
+				9F15B641506816515A303B54DE2089ED /* QAConnectingLine.m */,
+				F306813DCB5D3898809CC2413FA82B3C /* QAItemView.h */,
+				6B77BEC87C85AD605509B6312E3E05F8 /* QAItemView.m */,
+				711D9550417FF2335D08BA2B945C421F /* QAScrollView.h */,
+				79B57D634B264138D9456B52587203AD /* QAScrollView.m */,
+				05ED34B0F406A5E8A87998ED6EAC01B3 /* UIScrollViewItem */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
 		7DB346D0F39D3F0E887471402A8071AB = {
 			isa = PBXGroup;
 			children = (
@@ -209,17 +257,9 @@
 		A6E5AAA60AB0E73D1E7DF297F6AB81E5 /* Pod */ = {
 			isa = PBXGroup;
 			children = (
-				AB81AB73DE4B9736DE558F5A0EFE2BDE /* Classes */,
+				C087BBACE256D84E0AE0DE8CB9583187 /* Classes */,
 			);
 			path = Pod;
-			sourceTree = "<group>";
-		};
-		AB81AB73DE4B9736DE558F5A0EFE2BDE /* Classes */ = {
-			isa = PBXGroup;
-			children = (
-				DC9FD843FE3A4E655DB2DA3F163150A2 /* ReplaceMe.m */,
-			);
-			path = Classes;
 			sourceTree = "<group>";
 		};
 		BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */ = {
@@ -238,6 +278,14 @@
 			name = iOS;
 			sourceTree = "<group>";
 		};
+		C087BBACE256D84E0AE0DE8CB9583187 /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				EF26B72ABA71E034AA17A52CE2B9A106 /* QAView */,
+			);
+			path = Classes;
+			sourceTree = "<group>";
+		};
 		D8AEBA99CEBF4DDE87BD5B53951E6044 /* Development Pods */ = {
 			isa = PBXGroup;
 			children = (
@@ -246,22 +294,38 @@
 			name = "Development Pods";
 			sourceTree = "<group>";
 		};
+		EF26B72ABA71E034AA17A52CE2B9A106 /* QAView */ = {
+			isa = PBXGroup;
+			children = (
+				A9350AF4B00B0E37D29CC0AFEB9EEC01 /* QAViewDelegate.h */,
+				6C080BE652076EB43FA74C0F5FEFF16F /* Views */,
+			);
+			path = QAView;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXHeadersBuildPhase section */
+		30FB54D842B5EDED87540E5C2B8CF2F4 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6C652039270185A2BE0CE8A9A4AB3A4D /* QAConnectingLine.h in Headers */,
+				67B38378BA20E83F919FB64BF7337179 /* QAItemView.h in Headers */,
+				913C5BF86CB8DEB183467B330B3E88A4 /* QAScrollView.h in Headers */,
+				41DD3E420ECD6426CE5614D2A0E94AE1 /* QAView-umbrella.h in Headers */,
+				BFB0FFA955024DFC445F909853819991 /* QAView.h in Headers */,
+				3B622940AB4C19193EA424D2A8CF78A3 /* QAViewDelegate.h in Headers */,
+				C4D5B4DAA504EC5B6691C52D8DF2A137 /* UIScrollViewItem.h in Headers */,
+				72F58577E8AF96144C7B1A3F19929030 /* UIScrollViewItemDelegate.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		4EB24C6C59C9AB6FE5905AE81E760AA9 /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 				DD2B5B74ECE762AB5C1258847BC3E680 /* Pods-QAView_Example-umbrella.h in Headers */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		A71C07650281F1FE23881F7037EE4AF7 /* Headers */ = {
-			isa = PBXHeadersBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				18C2BD7DEBA81ECA326ED7452CE9BB8C /* QAView-umbrella.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -298,10 +362,10 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 7785587871383E120888D8F5A32F187A /* Build configuration list for PBXNativeTarget "QAView" */;
 			buildPhases = (
-				659D831BE14D5B1AE036F0B3D9E858AE /* Sources */,
+				17FBDE5CF460C8A2E85486D3E30FF93C /* Sources */,
 				D759987DF6617CC33F8A113C3394E542 /* Frameworks */,
 				CA975E1FA5CA37266CD27B2C487C4B13 /* Resources */,
-				A71C07650281F1FE23881F7037EE4AF7 /* Headers */,
+				30FB54D842B5EDED87540E5C2B8CF2F4 /* Headers */,
 			);
 			buildRules = (
 			);
@@ -404,6 +468,19 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		17FBDE5CF460C8A2E85486D3E30FF93C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0952604E9ADB957643B058D86B0342E3 /* QAConnectingLine.m in Sources */,
+				F5462082A939EA2D65C18C3F276B375A /* QAItemView.m in Sources */,
+				51E73AB17B56D1253F45065F2A6F69A0 /* QAScrollView.m in Sources */,
+				D5AAC3EE86C8952BA9907144ABF4B4B5 /* QAView-dummy.m in Sources */,
+				F33EF769AE4775881B89FE775D6097A0 /* QAView.m in Sources */,
+				E4032C3F5A4D9B1813771620353F790F /* UIScrollViewItem.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		53BB6A74F474E57EE7DE619CCED19820 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -416,15 +493,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		659D831BE14D5B1AE036F0B3D9E858AE /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				449B6B6249AECE747DB9D556259B5EDA /* QAView-dummy.m in Sources */,
-				EAF197DCF1592AA7642E84559E7DAE4A /* ReplaceMe.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

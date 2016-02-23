@@ -7,12 +7,22 @@
 //
 
 #import "QAAppDelegate.h"
+#import "QAViewController.h"
 
 @implementation QAAppDelegate
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions
 {
     // Override point for customization after application launch.
+    
+    
+    self.window = [[UIWindow alloc] initWithFrame:[[UIScreen mainScreen] bounds]];
+    
+    QAViewController* viewController = [[QAViewController alloc] init] ;
+    
+    _window.rootViewController = viewController;
+    [_window makeKeyAndVisible];
+    
     return YES;
 }
 
