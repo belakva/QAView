@@ -1,0 +1,14 @@
+PODS:
+  - QAView (0.1.0)
+
+DEPENDENCIES:
+  - QAView (from `../`)
+
+EXTERNAL SOURCES:
+  QAView:
+    :path: ../
+
+SPEC CHECKSUMS:
+  QAView: 50f2fd7070f85d4c9913343a5821b38aa7ebffab
+
+COCOAPODS: 0.39.0

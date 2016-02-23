@@ -9,22 +9,21 @@
 Pod::Spec.new do |s|
   s.name             = "QAView"
   s.version          = "0.1.0"
-  s.summary          = "A short description of QAView."
+  s.summary          = "QAView visualizes dependencies in between elemets of 2 arrays."
 
 # This description is used to generate tags and improve search results.
 #   * Think: What does it do? Why did you write it? What is the focus?
 #   * Try to keep it short, snappy and to the point.
 #   * Write the description between the DESC delimiters below.
 #   * Finally, don't worry about the indent, CocoaPods strips it!  
-  s.description      = <<-DESC
-                       DESC
+  s.description      = "QAView represents 2 UIScrollViews: questionsScroller & answersScroller populated with 2 arrays: questions & answers respectively. When question is tapped, it becomes active and ready to be connected to answers. Use this pod whenever you have to visualize dependencies in between elements of 2 arrays."
 
-  s.homepage         = "https://github.com/<GITHUB_USERNAME>/QAView"
-  # s.screenshots     = "www.example.com/screenshots_1", "www.example.com/screenshots_2"
+  s.homepage         = "https://github.com/belakva/QAView"
+  s.screenshots      = "http://i.imgur.com/qE6fPfI.png"
   s.license          = 'MIT'
   s.author           = { "belakva" => "kerd@bk.ru" }
-  s.source           = { :git => "https://github.com/<GITHUB_USERNAME>/QAView.git", :tag => s.version.to_s }
-  # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
+  s.source           = { :git => "https://github.com/belakva/QAView.git", :tag => s.version.to_s }
+  s.social_media_url = 'https://twitter.com/nikita_kerd'
 
   s.platform     = :ios, '7.0'
   s.requires_arc = true

@@ -1,0 +1,25 @@
+{
+  "name": "QAView",
+  "version": "0.1.0",
+  "summary": "A short description of QAView.",
+  "description": "",
+  "homepage": "https://github.com/<GITHUB_USERNAME>/QAView",
+  "license": "MIT",
+  "authors": {
+    "belakva": "kerd@bk.ru"
+  },
+  "source": {
+    "git": "https://github.com/<GITHUB_USERNAME>/QAView.git",
+    "tag": "0.1.0"
+  },
+  "platforms": {
+    "ios": "7.0"
+  },
+  "requires_arc": true,
+  "source_files": "Pod/Classes/**/*",
+  "resource_bundles": {
+    "QAView": [
+      "Pod/Assets/*.png"
+    ]
+  }
+}

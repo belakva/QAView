@@ -1,0 +1,6 @@
+framework module Pods_QAView_Tests {
+  umbrella header "Pods-QAView_Tests-umbrella.h"
+
+  export *
+  module * { export * }
+}

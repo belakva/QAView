@@ -1,0 +1,6 @@
+framework module QAView {
+  umbrella header "QAView-umbrella.h"
+
+  export *
+  module * { export * }
+}
