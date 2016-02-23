@@ -7,7 +7,7 @@
 
 ![](QAScreenshot.gif?raw=true "Blinking Label screenshot")
 
-QAView represents 2 UIScrollViews: _questionsScroller & _answersScroller populated with 2 arrays: _questions & _answers respectively. When a question is tapped, it becomes active and ready to be connected to answers. Use this pod whenever you have to visualize dependencies in between elements of 2 arrays.
+QAView represents 2 UIScrollViews:` _questionsScroller` & `_answersScroller` populated with 2 arrays: `_questions` & `_answers` respectively. When a question is tapped, it becomes active and ready to be connected to answers. Use this pod whenever you have to visualize dependencies in between elements of 2 arrays.
 
 ## Requirements
 * iOS7
@@ -50,7 +50,7 @@ You can set inactive color
 ```objc
 _qaView.inactiveColor = [UIColor redColor];
 ```
-Default is gray with lightness = 0.89
+Default is gray with lightness = `0.89`
     
 Set logic scheme
 ```objc
@@ -105,7 +105,7 @@ Edit them when initilizing a QAItemView in `itemViewForAnswerAtIndex:` / `itemVi
 
 **Important**
 
-When initilizing cell with [[QAItemView alloc] init] in `itemViewForAnswerAtIndex:` / `itemViewForQuestionAtIndex:`, **do not** set or retrieve its' frame, as the frame will be set automatically right after this method is called.
+When initilizing cell with `[[QAItemView alloc] init]` in `itemViewForAnswerAtIndex:` / `itemViewForQuestionAtIndex:`, **do not** set or retrieve its' frame, as the frame will be set automatically right after this method is called.
 
 FOR MANUAL FRAME SET UP, use following initilizer:
 ```objc
