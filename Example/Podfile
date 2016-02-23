@@ -1,0 +1,12 @@
+source 'https://github.com/CocoaPods/Specs.git'
+use_frameworks!
+
+target 'QAView_Example', :exclusive => true do
+  pod 'QAView', :path => '../'
+end
+
+target 'QAView_Tests', :exclusive => true do
+  pod 'QAView', :path => '../'
+
+  
+end
