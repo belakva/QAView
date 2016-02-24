@@ -34,11 +34,11 @@ pod "QAView"
 Set up is easy as
 ```objc
 _qaView = [[QAView alloc] initWithFrame:self.view.frame
-                                  questions:@[@"Frank",
-                                              @"Jason"]
-                                    answers:@[@"Anna",
-                                              @"Maria",
-                                              @"Jessica"]];
+                              questions:@[@"Frank",
+                                          @"Jason"]
+                                answers:@[@"Anna",
+                                          @"Maria",
+                                          @"Jessica"]];
 ```
 You can set highlight colors
 ```objc
