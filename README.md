@@ -1,6 +1,5 @@
 # QAView
 
-[![CI Status](http://img.shields.io/travis/belakva/QAView.svg?style=flat)](https://travis-ci.org/belakva/QAView)
 [![Version](https://img.shields.io/cocoapods/v/QAView.svg?style=flat)](http://cocoapods.org/pods/QAView)
 [![License](https://img.shields.io/cocoapods/l/QAView.svg?style=flat)](http://cocoapods.org/pods/QAView)
 [![Platform](https://img.shields.io/cocoapods/p/QAView.svg?style=flat)](http://cocoapods.org/pods/QAView)
