@@ -116,7 +116,7 @@ FOR MANUAL FRAME SET UP, use following initilizer:
                             asQuestion:(BOOL)asQuestion
 ```
 
-For formula, used to for automatic cell frame calculation check Example project.
+For formula, used for automatic cell frame calculation check Example project.
 
 ### Retrieving data
 
