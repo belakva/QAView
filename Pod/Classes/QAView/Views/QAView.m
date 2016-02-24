@@ -120,6 +120,11 @@
 
 #pragma mark - Setters
 
+- (void)setFrame:(CGRect)frame
+{
+    [super setFrame:frame];
+    [self setUpScrollers];
+}
 
 - (void)setQuestions:(NSArray *)questions
 {

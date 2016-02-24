@@ -9,7 +9,8 @@
 QAView represents 2 UIScrollViews:` _questionsScroller` & `_answersScroller` populated with 2 arrays: `_questions` & `_answers` respectively. When a question is tapped, it becomes active and ready to be connected to answers. Use this pod whenever you have to visualize dependencies in between elements of 2 arrays.
 
 ## Requirements
-* iOS7
+* iOS 8 - if use CocoaPods
+* iOS 7 - if install manually
 
 ## Installation
 
@@ -56,10 +57,6 @@ Set logic scheme
 _qaView.canUseOneAnswerToSeveralQuestions = NO; //Defaults to YES
 _qaView.canUseSeveralAnswersToOneQuestion = NO; //Defaults to YES
 ```
-
-**Important**
-
-Whenever you change the frame of `QAView` instance (e.g. `_qaView`), you should call `[_qaView setUpScrollers]` so that connections are redrawn properly.
 
 ### Delegate
 

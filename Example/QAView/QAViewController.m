@@ -71,7 +71,7 @@
     [super viewDidLayoutSubviews];
     
     _qaView.frame = self.view.frame;
-    [_qaView setUpScrollers];
+  //  [_qaView setUpScrollers];
 }
 
 
