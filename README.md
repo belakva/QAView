@@ -9,8 +9,8 @@
 QAView represents 2 UIScrollViews:` _questionsScroller` & `_answersScroller` populated with 2 arrays: `_questions` & `_answers` respectively. When a question is tapped, it becomes active and ready to be connected to answers. Use this pod whenever you have to visualize dependencies in between elements of 2 arrays.
 
 ## Requirements
-* iOS 8 - if use CocoaPods
 * iOS 7 - if install manually
+* iOS 8 - if use CocoaPods
 
 ## Installation
 
@@ -44,7 +44,7 @@ You can set highlight colors
 ```objc
 _qaView.colors = @[[UIColor greenColor], [UIColor purpleColor]];
 ```
-if not set, highlight colors are generated automatically with hue step = `(360./[questions count])/360.`
+If not set, highlight colors are generated automatically with hue step = `(360./[questions count])/360.`
 
 You can set inactive color
 ```objc
