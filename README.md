@@ -75,7 +75,7 @@ It has following `@optional` methods:
 - (void)answersScrollerDidScroll:(QAScrollView *)scrollView;
 - (void)questionsScrollerDidScroll:(QAScrollView *)scrollView;
 
-- (QAItemView *)itemViewForAnswerAtIndex:(NSUInteger)index; 	//cutom cell set up
+- (QAItemView *)itemViewForAnswerAtIndex:(NSUInteger)index; 	//custom cell set up
 - (QAItemView *)itemViewForQuestionAtIndex:(NSUInteger)index;	//custom cell set up
 
 - (NSUInteger)numberOfAnswers;
